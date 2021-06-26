@@ -1,7 +1,7 @@
-opts = detectImportOptions('Dataset real estate.xlsx');
+opts = detectImportOptions('data_wp.xlsx');
 opts.SelectedVariableNames = [3 4 5 8];
 % Mengambil data rating kecocokan dari dataset
-DATA = readmatrix('Dataset real estate.xlsx',opts); 
+DATA = readmatrix('data_wp.xlsx',opts); 
 
 %atribut dari setiap kriteria, nilai 1, yang berarti atrribut benefit, dan 0 berarti atribut cost
 k = [0,0,1,0]; 
