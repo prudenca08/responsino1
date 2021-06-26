@@ -133,4 +133,4 @@ hasil = [ C(    1:20,:) B(1:20,:)]; %menjadikannya array, supaya bisa tahu wp se
 
 %hasil
 set(handles.uitable2,'data',hasil);
-set(handles.text3,'string',("Real Estate Terbaik ada di baris ke- " +index+ " yang nilai wp nya : "+ peringkat));
+set(handles.text3,'string',("Real Estate Terbaik ada di baris ke- " +index+ " yang nilai wp nya : "+ peringkat);
